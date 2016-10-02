@@ -38,3 +38,6 @@ RUN yum -y groupinstall 'Development Tools' \
 
 RUN curl -sS https://getcomposer.org/installer | php \
     && mv composer.phar /usr/local/bin/composer
+
+RUN chkconfig php-fpm on \
+    && chkconfig nginx on
