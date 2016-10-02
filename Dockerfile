@@ -1,6 +1,6 @@
 # nipisarev/web
 
-FROM nipisarev/centos:latest
+FROM nipisarev/centos7:latest
 MAINTAINER Nick Pisarev <nipisarev@gmail.com>
 
 ADD repo-files /etc/yum.repos.d/
